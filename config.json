@@ -1,0 +1,23 @@
+{
+  "couchdb": {
+    "uuid": "1687e77c-b65b-4bca-84d0-91750e8e3de3"
+  },
+  "admins": {
+    "1": "-pbkdf2-3fb8e7dbae5802c9824cdea2ed4dabe2608a22e9,1e014416e1371a41a719f1bd1841281e71181381971fc177,10"
+  },
+  "httpd": {
+    "enable_cors": true
+  },
+  "cors": {
+    "origins": "*",
+    "credentials": true,
+    "headers": "accept, authorization, content-type, origin, referer",
+    "methods": "GET, PUT, POST, HEAD, DELETE"
+  },
+  "log": {
+    "file": "/dev/null"
+  },
+  "vendor": {
+    "name": "gabb"
+  }
+}
