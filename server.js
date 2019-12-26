@@ -1,6 +1,6 @@
 const cluster = require('cluster');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 if (cluster.isMaster) {
   cluster.fork();
   cluster.on('exit', worker => {
