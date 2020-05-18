@@ -8,6 +8,8 @@ if (cluster.isMaster) {
         cluster.fork()
     })
 } else {
+    console.log('works')
+
     const compression = require('compression')
     const cors = require('cors')
     const express = require('express')
