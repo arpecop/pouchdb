@@ -1,8 +1,0 @@
-version: '3.7'
-services:
-    app:
-        image: pouchdb
-        volumes:
-            - /Users/arpecop/Desktop/pouchdb:/app
-        ports:
-            - 3000:3000
